@@ -24,7 +24,7 @@ function analyzeColor(input) {
     /*if (input === "blue") {
         return "the sky is blue";
     } else if (input === "red") {
-        return "Stawberries are red";
+        return "Strawberries are red";
     } else if (input === "cyan") {
         return "I don't know anything about cyan";
     } else if (input === "orange") {

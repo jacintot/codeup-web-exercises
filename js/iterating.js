@@ -16,7 +16,7 @@ var names =["John", "Steve", "Paul", "Sid"];
  * Create a log statement that will log the number of elements in the names
  * array.
  */
-//console.log(names);
+//console.log(names.length);
 
 /**
  * TODO:
@@ -28,7 +28,16 @@ var names =["John", "Steve", "Paul", "Sid"];
 //console.log(names[2]);
 //console.log(names[3]);
 
+// Bottom does the same as above with a for loop.
+//for (var i = 0; i < names.length; i += 1) {
+//    console.log(names[i]);
 
+//}
+
+// Using a forEach loop. (more readable)
+names.forEach(function(name) {
+    console.log(name);
+    });
 
 /**
  * TODO:
@@ -68,22 +77,22 @@ var names =["John", "Steve", "Paul", "Sid"];
  */
 
 
-function first(input) {
-    return input[0]
-}
+//function first(input) {
+ //   return input[0]
+//}
 
-console.log(first([1, 2, 3, 4, 5]))
+//console.log(first([1, 2, 3, 4, 5]))
 
-function second(input) {
-    return input[1]
-}
+//function second(input) {
+//    return input[1]
+//}
 
-console.log(second([1, 2, 3, 4, 5]))
+//console.log(second([1, 2, 3, 4, 5]))
 
-function last(input) {
-    return input[input.length-1];
-}
-console.log(last([1, 2, 3, 4, 5]))
+//function last(input) {
+//    return input[input.length-1];
+//}
+//console.log(last([1, 2, 3, 4, 5]))
 
 
 
