@@ -25,6 +25,7 @@
 //    console.log(planets);
 
       planets.push("Pluto")
+
 //      console.log('Adding "Pluto" to the end of the planets array.');
 //      console.log(planets)
 
@@ -51,5 +52,5 @@
     planets.sort()
 
 //    console.log("Sorting the planets array.");
-      console.log(planets);
+//      console.log(planets);
 })();
