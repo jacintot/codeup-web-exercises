@@ -14,7 +14,7 @@
      * console.log planetsArray to check your work
      */
 
-//     console.log(planetsArray);
+    console.log(planetsArray);
 
     /**
      * TODO:
@@ -27,8 +27,8 @@
      * string, and <li> tags around each planet.
      */
 
-//   var planetsString = planetsArray.join("<br>")
-//    console.log(planetsString)
+   var planetsString = planetsArray.join("<br>")
+    console.log(planetsString)
         var planetNames = '';
     planetsArray.forEach(function(planet) {
         planetNames += '</li>' + planet + '</li>';
