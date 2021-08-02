@@ -9,14 +9,14 @@
  * 'names'.
  */
 
-var names =["John", "Steve", "Paul", "Sid"];
+var names = ["John", "Steve", "Paul", "Sid"];
 
 /**
  * TODO:
  * Create a log statement that will log the number of elements in the names
  * array.
  */
-//console.log(names.length);
+console.log(names.length);
 
 /**
  * TODO:
@@ -35,9 +35,9 @@ var names =["John", "Steve", "Paul", "Sid"];
 //}
 
 // Using a forEach loop. (more readable)
-names.forEach(function(name) {
-    console.log(name);
-    });
+//names.forEach(function(name) {
+//    console.log(name);
+ //   });
 
 /**
  * TODO:
